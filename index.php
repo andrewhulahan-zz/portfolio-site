@@ -1,5 +1,4 @@
 <?php
-	// Randomize album of images for welcome background
 	header("Cache-Control: max-age=2592000");
 	$bgImage = array('001.png', '002.png', '003.png', '004.png', '005.png', '006.png', '007.png', '008.png', '009.png', '010.png', '011.png', '012.png', '013.png', '014.png', '015.png', '016.png', '017.png');
 	$i = rand(0, count($bgImage)-1);
@@ -144,7 +143,7 @@
 								<div class="span-12">
 									<div class="col span-6">
 										<div class="portfolio-img">
-											<header>Portfolio Site | <span class="tile html5">HTML</span> <span class="tile scss">SCSS</span> <span class="tile js">JS</span> <span class="tile php">PHP</span> <span class="tile ps">PS</span> <span class="tile ai">AI</span></header>
+											<header>Portfolio Site | <span class="tile html5">HTML</span> <span class="tile scss">SCSS</span> <span class="tile js">JS</span> <span class="tile php">PHP</span> <span class="tile ps">PS</span> <span class="tile ai">AI</span> <a class="portfolio-link" href="https://github.com/andrewhulahan/portfolio-site">View Source</a></header>
 											<img alt="portfolio logo tile" src="img/portfolio-img/ahp_logo.png">
 											<div class="portfolio-desc">
 												<section>
@@ -249,7 +248,7 @@
 				<p>Andrew Hulahan &copy; <?php echo date('Y'); ?> | <a href="credits.php">Credits</a></p>
 			</div>
 		</footer>
-<script src="script/portfolio.js"></script>
+<script src="script/portfolio-min.js"></script>
 <script src="script/smoothscroll-min.js"></script>
 </body>
 </html>
