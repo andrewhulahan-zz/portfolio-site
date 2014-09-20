@@ -1,0 +1,16 @@
+* TEAM */
+
+	Designer and Developer: Andrew Hulahan
+	Site: andrewhulahan.com
+	Twitter: @andrewhulahan
+	Location: San Diego, CA, USA
+
+/* THANKS */
+
+	Name: Friends and family
+
+/* SITE */
+	Last update: 2014/08/06
+	Language: English
+	Standards: HTML5, CSS3 (SCSS), JS (jQuery), PHP
+	Software: Sublime Text 2, Photoshop, Illustrator
